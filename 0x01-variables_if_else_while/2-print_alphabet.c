@@ -11,7 +11,9 @@ int main(void)
 	char ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);
-		putchar('\n');
+		if (ch != EOF)
+			putchar(ch);
+		else
+			putchar('\n');
 	return (0);
 }
