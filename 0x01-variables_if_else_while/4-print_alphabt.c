@@ -18,5 +18,7 @@ int main(void)
 			continue;
 		else
 			putchar(ch);
+	putchar('\n');
+
 	return (0);
 }
