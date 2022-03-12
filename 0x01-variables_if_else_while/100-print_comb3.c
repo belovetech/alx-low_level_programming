@@ -1,28 +1,29 @@
 #include <stdio.h>
 
 /**
-* main - Entry point
+* main - print combination of two digit
 *
 * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-	int d, i;
+	int digit_1, digit_2;
 
-	for (d = '0'; d <= '9'; d++)
+	for (digit_1 = '0'; digit_1 < '9'; digit_1++)
 	{
-		putchar(d);
-	}
-	for (i = d; i <= d; i++)
-	{
-		putchar(i);
-	}
-		if (d != '9')
+		for (digit_2 = digit_1 + 1; digit_2 < 10; digit_2++)
 		{
+			putchar((digit_1 % 10) + '0');
+			putchar((digit_2 % 10) + '0');
+
+			if (digit_1 == 8 && digit_2 == 9)
+				continue;
+
 			putchar(',');
 			putchar(' ');
 		}
+	}
 
 	putchar('\n');
 
