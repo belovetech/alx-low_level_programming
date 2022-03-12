@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
 * main - print all the numbers in hexadecimal
 *
@@ -14,7 +13,7 @@ int main(void)
 	{
 		putchar((char)i % 10 + '0');
 	}
-	for (i = 'a'; i <= 'f'; i++;
+	for (i = 'a'; i < 'g'; i++);
 	{
 		putchar(i);
 	}
