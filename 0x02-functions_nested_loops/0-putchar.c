@@ -1,14 +1,13 @@
 #include "main.h"
+
+/* Declaraction of print_putchar function  */
+void print_putchar(void);
+
 /**
-* print_putchar - writes _putchar string to the stdout
-*
 * main - Entry point
 *
-* Return: on success 0*
-*
+* Return: Always 0 (success)
 */
-
-void print_putchar(void);
 
 int main(void)
 {
@@ -16,6 +15,9 @@ int main(void)
 	return (0);
 }
 
+/**
+* print_putchar - writes _putchar string to the stdout
+*/
 void print_putchar(void)
 {
 	_putchar('_');
