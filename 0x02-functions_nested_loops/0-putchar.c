@@ -1,10 +1,20 @@
 #include "main.h"
-
 /**
+* print_putchar - writes _putchar string to the stdout
+*
 * main - Entry point
 *
-* Return: on success 0
+* Return: on success 0*
+*
 */
+
+void print_putchar(void);
+
+int main(void)
+{
+	print_putchar();
+	return (0);
+}
 
 void print_putchar(void)
 {
@@ -17,11 +27,5 @@ void print_putchar(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-}
-
-int main(void)
-{
-	print_putchar();
-	return (0);
 }
 
