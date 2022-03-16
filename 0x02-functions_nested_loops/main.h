@@ -31,10 +31,11 @@ void jack_bauer(void);
 /* add function prototype */
 int add(int, int);
 
+/* print_to_98 function prototype*/
+void print_to_98(int n);
 
-int print_to_98(int);
-
-
+/* times_table function prototype*/
+void times_table(void);
 
 
 
