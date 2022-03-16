@@ -1,8 +1,11 @@
-/* Prototype of _putchar function  */
+/* _putchar function prototype  */
 int _putchar(char c);
 
-/* prototype of print_putchar function */
+/* print_putchar function prototype */
 void print_putchar(void);
 
-/* Prototype of print_alphabet */
+/* print_alphabet function prototype */
 void print_alphabet(void);
+
+/* print_alphabeet_10x function prototype */
+void print_alphabet_x10(void);
