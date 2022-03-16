@@ -1,8 +1,7 @@
 #include "main.h"
 
-/* Declaraction of print_putchar function  */
-void print_putchar(void);
-
+/* Declaraction of print_putchar function */
+void print_putchar(void); 
 /**
 * main - Entry point
 *
@@ -11,6 +10,7 @@ void print_putchar(void);
 
 int main(void)
 {
+
 	print_putchar();
 	return (0);
 }
@@ -20,14 +20,13 @@ int main(void)
 */
 void print_putchar(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char *s = "_putchar"; 
+
+	while (*s != '\0')
+	{
+		_putchar(*s);
+		s++;
+	}
 	_putchar('\n');
 }
 
