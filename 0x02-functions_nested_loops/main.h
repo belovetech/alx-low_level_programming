@@ -32,7 +32,7 @@ void jack_bauer(void);
 int add(int, int);
 
 
-int print_to_98(int n);
+void print_to_98(int n);
 
 
 
