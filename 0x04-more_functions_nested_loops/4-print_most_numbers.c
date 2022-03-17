@@ -1,24 +1,21 @@
 #include "main.h"
 
 /**
-* print_numbers - print numbers from 0-9
+* print_most_numbers - print numbers from 0-9 except 2 and 4
 */
 
 void print_most_numbers(void)
 {
-	int i = 0;
+	int i;
 
-	while (i < 10)
+	for (i = 0; i < 10; i++)
 	{
-		if ((i == 2) && (i == 4))
+		if ((i == 2) || (i == 4))
 		{
 			continue;
 		}
-		else
-		{
-			_putchar((char)i % 10 + '0');
-			i++;
-		}
+		_putchar((char)i % 10 + '0');
+
 
 	}
 	_putchar('\n');
