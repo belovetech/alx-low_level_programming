@@ -7,10 +7,20 @@
 
 void print_line(int n)
 {
-	char line = 45;
+	char line = '_';
+	int i = 0;
 
-	if (n <= 0)
+	if ((n != 0) && !(n < 0))
+	{
+		while (i < n)
+		{
+		_putchar(line);
+		i++;
+		}
 		_putchar('\n');
+	}
 	else
-		_putchar((char)n * line + '0');
+	{
+		_putchar('\n');
+	}
 }
