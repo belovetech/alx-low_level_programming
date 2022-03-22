@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <string.h>
 #include "main.h"
 
 /**
@@ -11,11 +9,11 @@
 
 void rev_string(char *s)
 {
-	int i, len;
+	int i, len = 0;
 
-        len = strlen(s);
+	len = strlen(s);
 
-        for (i = len - 1; i >= 0; i--)
-		printf("%c", s[i]);
-	printf("\n");
+		for (i = len - 1; i >= 0; i--)
+			printf("%c", s[i]);
+		s++;
 }
