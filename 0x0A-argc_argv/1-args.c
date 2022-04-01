@@ -13,7 +13,7 @@
 int main(int argc, char *argv[])
 {
 	printf("%d\n", argc);
-	
+
 	(void)argv;
 	exit(EXIT_SUCCESS);
 }
