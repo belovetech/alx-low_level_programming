@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
-* main - print the name of the program
+* main - count the arguments of the program
 * @argc: arguement count
 * @argv: arguement vectors
 *
@@ -12,8 +12,9 @@
 
 int main(int argc, char *argv[])
 {
-	printf("%d\n", argc);
-
-	(void)argv;
+	if (argc == 1)
+		printf("0\n");
+	else
+		printf("%d\n", argc - 1);
 	exit(EXIT_SUCCESS);
 }
