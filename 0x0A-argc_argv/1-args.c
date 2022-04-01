@@ -16,5 +16,7 @@ int main(int argc, char *argv[])
 		printf("0\n");
 	else
 		printf("%d\n", argc - 1);
+
+	(void)argv;
 	exit(EXIT_SUCCESS);
 }
