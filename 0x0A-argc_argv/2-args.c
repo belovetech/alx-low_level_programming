@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
-* main - print the name of the program
+* main - prints all arguments it receives
 * @argc: arguement count
 * @argv: arguement vectors
 *
@@ -16,6 +16,6 @@ int main(int argc, char *argv[])
 
 	for (i = 0; i < argc; i++)
 		printf("%s\n", argv[i]);
-	
+
 	exit(EXIT_SUCCESS);
 }
