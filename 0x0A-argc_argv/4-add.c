@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <ctype.h>
 #include "main.h"
 
 /**
@@ -23,7 +22,7 @@ int main(int argc, char *argv[])
 	{
 		for (i = 1; i < argc; i++)
 		{
-			if (isalpha(*argv[i]) != 0)
+			if (!atoi(argv[i]))
 			{
 				printf("%s\n", "Error");
 				return (1);
