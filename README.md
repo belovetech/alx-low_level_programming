@@ -15,3 +15,9 @@
 ## 0x06-pointers_arrays_strings
 
 ## 0x07-pointers_arrays_strings
+
+## 0x08-Recursion
+
+## 0x09-static_libraries
+
+## 0x0A-argc_argv
