@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
-* main - add positive numbers 
+* main - add positive numbers
 * @argc: arguement count
 * @argv: arguement vectors
 *
