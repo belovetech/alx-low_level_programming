@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 		{
 			if (isalpha(*argv[i]) != 0)
 			{
-				printf("Error\n");
+				printf("%s\n", "Error");
 				return (1);
 			}
 			else
