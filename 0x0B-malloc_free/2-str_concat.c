@@ -55,23 +55,14 @@ char *str_concat(char *s1, char *s2)
 			else
 				ptr[i] = s2[j++];
 		}
-		return (ptr);
 	}
 	else
 	{
 		ptr = "";
 	}
-
+	return (ptr);
 	free(ptr);
 }
-
-
-
-
-
-
-
-
 
 
 
