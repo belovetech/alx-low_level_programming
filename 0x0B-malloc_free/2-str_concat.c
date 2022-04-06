@@ -39,7 +39,6 @@ char *str_concat(char *s1, char *s2)
 	len2 = _strlen(s2);
 	size = len1 + len2;
 
-	printf("Size of the %s and %s is: %d\n", s1,s2,size);
 	ptr = (char *)malloc((size + 1) * sizeof(char));
 
 	if (ptr == NULL)
