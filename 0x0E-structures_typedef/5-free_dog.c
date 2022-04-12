@@ -4,7 +4,7 @@
 /**
  * free_dog - frees dogs
  * @d: pointer to the struct
- * 
+ *
  * Return: (void)
  */
 
