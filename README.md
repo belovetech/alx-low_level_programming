@@ -21,3 +21,11 @@
 ## 0x09-static_libraries
 
 ## 0x0A-argc_argv
+
+## 0x0B-C-malloc-free
+
+## 0x0C-C-more malloc free
+
+## 0x0D-C-preprocessor
+
+## 0X0E-c-structures, typdef
