@@ -3,7 +3,7 @@
 
 /**
  * _strlen - finds string length
- * @str: string 
+ * @str: string
  * Return: length of the string
  */
 int _strlen(char *str)
@@ -20,8 +20,7 @@ int _strlen(char *str)
  * @name: name of the dog
  * @age: age of dog
  * @owner: owner of dog
- *
- * Return: 
+ * * Return: newdog created
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -46,7 +45,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	for (i = 0; i < namelen; i++)
 		newdog->name[i] = name[i];
 
-	newdog->age = age;	
+	newdog->age = age;
 
 	ownerlen = _strlen(owner);
 	newdog->owner = malloc(ownerlen * sizeof(char));
