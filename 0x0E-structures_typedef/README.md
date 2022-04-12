@@ -11,9 +11,9 @@
 
 ## 0. dog.h: Header file that defines a new type struct dog with the following elements:
 
-* char *name
-* float age
-* char *owner
+	char *name
+	float age
+	char *owner
 
 ## 1. A dog is the only thing on earth that loves you more than you love yourself
 
