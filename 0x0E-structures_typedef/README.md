@@ -3,7 +3,8 @@
 In this project, I learned about using structures and typedef in C.
 
 ## Header File
-	dog.h: containing definitions and prototypes for all types and function written in the project.
+
+### dog.h: containing definitions and prototypes for all types and function written in the project.
 
 
 ## Tasks
