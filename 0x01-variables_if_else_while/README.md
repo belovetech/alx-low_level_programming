@@ -2,6 +2,16 @@
 
 In this project, I learned about arithemetic operators and how to use them. I also learned about Logical operators, Rational operators, Boolean operators, if, if....else statment, how to declare variables, how to use while loop, how to print variables using printf function, what are ASCII character set and purpose of gcc flags -m32 and -m64
 
+## Requirements
+### General
+* Allowed editors: vi, vim, emacs
+* All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+* All your files should end with a new line
+* A README.md file, at the root of the folder of the project
+* There should be no errors and no warnings during compilation
+* You are not allowed to use system
+* Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+
 # Tasks
 
 ## 0. Positive anything is better than negative nothing
