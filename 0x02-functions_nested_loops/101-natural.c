@@ -33,7 +33,7 @@ int main(void)
 void sum_mul_of_3_and_5(int num)
 {
 	int i, sum = 0;
-	
+
 	for (i = 0; i < num; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
