@@ -22,7 +22,7 @@ int main(void)
 			sum += i;
 	}
 
-	printf("\n%d \n", sum);
+	printf("%d \n", sum);
 	return (0);
 }
 
