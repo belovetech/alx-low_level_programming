@@ -14,8 +14,11 @@ int create_file(const char *filename, char *text_content)
 	if (filename == NULL)
 		return (-1);
 
-	while (text_content[len] != NULL)
-		len++;
+	if (text_content != NULL)
+	{
+		while (text_content[len])
+			len++;
+	}
 
 	fd_to_create = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
 	fd_to_write = write(STDOUT_FILENO, text_content, len);
