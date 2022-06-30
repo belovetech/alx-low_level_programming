@@ -4,7 +4,7 @@
 
 Please use these data structures for this project:
 
-```bash
+```text
 /**
  * struct hash_node_s - Node of a hash table
  *
