@@ -14,11 +14,17 @@ int main(void)
 
 	s = "cisfun";
 	printf("%lu\n", hash_djb2((unsigned char *)s));
+	printf("%lu\n", sdbm((unsigned char *)s));
+	printf("%lu\n", hash((unsigned char *)s));
 
 	s = "Don't forget to tweet today";
 	printf("%lu\n", hash_djb2((unsigned char *)s));
+	printf("%lu\n", sdbm((unsigned char *)s));
+	printf("%lu\n", hash((unsigned char *)s));
 
 	s = "98";
 	printf("%lu\n", hash_djb2((unsigned char *)s));
+	printf("%lu\n", sdbm((unsigned char *)s));
+	printf("%lu\n", hash((unsigned char *)s));
 	return (EXIT_SUCCESS);
 }
