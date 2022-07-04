@@ -1,6 +1,7 @@
 # Low-level programming, Algorithm & Data structures
 
-**C proramming language**
+## C proramming language
+
 This repository contains all alx projects using `C programming language for` `algorithms` and `data structure`
 
 ## Directories in the repository
