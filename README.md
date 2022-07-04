@@ -1,6 +1,7 @@
-# Low-level programming & Algorithm
+# Low-level programming, Algorithm & Data structures
 
-This repository contains all alx projects on low level programming language and algorithms.
+**C proramming language**
+This repository contains all alx projects using `C programming language for` `algorithms` and `data structure`
 
 ## Directories in the repository
 
@@ -25,6 +26,9 @@ This repository contains all alx projects on low level programming language and 
 | 0x12-Singly linked lists         | Singly linked lists in `C`                   |
 | 0x13-More singly linked lists    | More Singly linked lists in `C`              |
 | 0x15-File I/O                    | File input and output in `C`                 |
+| 0x17-doubly_linked_lists         | Doubly linked list data stucture             |
+| 0x18-dynamic_libraries           | Dynamic libraries in `C`                     |
+| 0x1A-hash_tables                 | Hash tables data structure                   |
 
 ### PS
 
