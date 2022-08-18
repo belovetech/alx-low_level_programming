@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/beloved/alx_africa/alx-low_level_programming/0x1C-makefiles'
+echo gcc 
+make: Leaving directory '/home/beloved/alx_africa/alx-low_level_programming/0x1C-makefiles'
+ 
